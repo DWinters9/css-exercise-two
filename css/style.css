@@ -1,6 +1,8 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: darkblue;
+  color: white;
+  font-size: 18px; /* 17 px */
+  line-height: 100%;
 }
 
 nav {
@@ -10,9 +12,20 @@ nav {
   width: 100%;
 }
 
+h1 {
+  font-size: 35px; /* 34px */
+  font-style: Garamond, Serif, sans-serif;
+  line-height: 50%;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
 .logo {
-  margin: 20px;
-  width: 100px;
+  margin: 10px;
+  width: 45px;
 }
 
 .large-pic {
@@ -30,6 +43,15 @@ nav {
 
 .right {
   float: right;
+}
+
+.right a {
+  text-decoration: none;
+  color: white
+}
+
+.right a:active {
+  color: orange;
 }
 
 ul {
