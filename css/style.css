@@ -1,6 +1,6 @@
 body {
-  background-color: darkblue;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 18px; /* 17 px */
   line-height: 100%;
 }
@@ -47,11 +47,11 @@ h3 {
 
 .right a {
   text-decoration: none;
-  color: white
+  color: black;
 }
 
-.right a:active {
-  color: orange;
+.right a:hover {
+  color: red;
 }
 
 ul {
